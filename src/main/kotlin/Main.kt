@@ -76,3 +76,7 @@ fun createProductList(){
     val filterBalance = products.filter { r -> r.price <= 5000 }
     println(filterBalance)
 }
+
+//function that takes in a list of products and amount
+//returns the list of items you can buy
+//first sort, loop, implement the total until you cannot afford anymore
